@@ -1,0 +1,33 @@
+.cardImage{
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+}
+.cardImage img{
+    width: 100%;
+
+}
+
+.productCard{
+    transition: box-shadow 250ms linear;
+    background-color: rgba(246, 246, 246, 0.37);
+}
+
+.productCard:hover{
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.664);
+    cursor: pointer;
+}
+
+.display-selling-price span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+.stockAvailability{
+    font-size: 0.8em !important;
+}
+
+.stockAvailability-yes{
+    color: #0db43c !important;
+}
